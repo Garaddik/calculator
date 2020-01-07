@@ -1,5 +1,21 @@
 class Calculator{
 
-
+  public static void main(String args){
+     Scanner sc=new Scanner(System.in);
+     int a=sc.nextInt();
+     int b=sc.nextInt();
+     int result1=multiply(a,b);
+     System.out.println(result1);
+     int result2=division(a,b);
+     System.out.println(result2);
+  }
+  public int multiply(int a,int b){
+     int mult=a*b;
+     return mult;
+  }
+  public int division(int a,int b){
+     int div=a/b;
+     return div;
+  }
 
 }
